@@ -30,6 +30,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build
         run: |
-          cd android && gradlew clean build
+          cd android && gradle clean build
         
           
